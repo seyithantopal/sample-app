@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-grow: 33%;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #000;
+  width: 400px;
+}
+
+.wrapper img {
+  height: auto;
+}
+
+.wrapper p {
+  text-align: center;
+}
